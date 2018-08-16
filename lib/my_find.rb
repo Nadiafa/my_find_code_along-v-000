@@ -6,4 +6,9 @@ def my_find(collection)
     yield(collection[i])
     i += 1
   end
+  
+  if collection[i] == true
+    collection[i]
+  end
+  
 end
